@@ -4,5 +4,5 @@ import com.valchevgd.productservice.dto.ProductRequest;
 
 public interface ProductService {
 
-    void createProduct(ProductRequest productRequest);
+    void create(ProductRequest productRequest);
 }
