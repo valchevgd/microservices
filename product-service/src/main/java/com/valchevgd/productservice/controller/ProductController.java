@@ -15,7 +15,7 @@ import java.util.List;
 public class ProductController {
     private final ProductService productService;
 
-    @GetMapping
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void create(@RequestBody ProductRequest productRequest) {
         productService.create(productRequest);
